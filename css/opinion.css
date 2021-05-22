@@ -1,0 +1,231 @@
+/*flex start*/
+.flex {
+  width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  padding: 64px 118px;
+}
+
+.flex > img {
+  border-radius: 50%;
+  border: 6px solid white;
+  display: inline-flex;
+  margin-right: 29px;
+  width: 133px;
+  height: auto;
+}
+
+.flex-piople h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 10px;
+}
+.flex-piople h4 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.1;
+  color: white;
+}
+/*flex edd*/
+
+/*float start*/
+.float {
+  width: 1120px;
+  height: 261px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  padding: 64px 118px;
+}
+
+.float > img {
+  border-radius: 50%;
+  border: 6px solid white;
+  margin-right: 29px;
+  width: 133px;
+  height: auto;
+  float: left;
+}
+
+.float-piople h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: white;
+  margin-top: 43px;
+  margin-bottom: 10px;
+}
+.float-piople h4 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.1;
+  color: white;
+}
+/*float end*/
+
+/*block+position start*/
+.block {
+  width: 1120px;
+  /* height: 261px; */
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  padding: 64px 118px;
+}
+
+.block > img {
+  border-radius: 50%;
+  border: 6px solid white;
+  margin-right: 29px;
+  width: 133px;
+  height: auto;
+  display: inline-block;
+}
+.block-piople {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+.block-piople h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: white;
+  /* margin-top: 43px; */
+  margin-bottom: 10px;
+}
+.block-piople h4 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.1;
+  color: white;
+}
+/*block+position end*/
+
+/*position+flex statrt*/
+.position {
+  width: 1120px;
+  height: 261px;
+
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.position-item {
+  position: relative;
+  top: 64px;
+  left: 118px;
+  display: flex;
+  align-items: center;
+}
+.position-item > img {
+  border-radius: 50%;
+  border: 6px solid white;
+  margin-right: 29px;
+  width: 133px;
+  height: auto;
+}
+.position-piople {
+}
+.position-piople h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: white;
+  /* margin-top: 43px; */
+  margin-bottom: 10px;
+}
+.position-piople h4 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.1;
+  color: white;
+}
+/*position+flex end*/
+
+/*tabl statrt*/
+.tabl {
+  width: 1120px;
+  height: 261px;
+  padding-top: 64px;
+
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.tabl > table {
+  margin-left: 118px;
+}
+table img {
+  border-radius: 50%;
+  border: 6px solid white;
+  margin-right: 29px;
+  width: 133px;
+  height: auto;
+}
+table h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: white;
+  /* margin-top: 43px; */
+  margin-bottom: 10px;
+  text-align: left;
+}
+table h4 {
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.1;
+  color: white;
+  text-align: left;
+}
+/*tabl end*/
+
+/*tabl+position statrt*/
+.tabl-position {
+  width: 1120px;
+  height: 261px;
+
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.tabl-position > table {
+  position: relative;
+  left: 118px;
+  top: 64px;
+}
+
+/*tabl+position end*/
+
+/*tabl+position statrt*/
+.flex-position {
+  width: 1120px;
+  height: 261px;
+
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+.flex-position > table {
+  position: relative;
+  left: 118px;
+  top: 64px;
+}
+
+/*tabl+position end*/
